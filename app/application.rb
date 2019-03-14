@@ -1,7 +1,7 @@
 require "pry"
 class Application
   def what_time
-    
+
     binding.pry
     t = Time.now
 end

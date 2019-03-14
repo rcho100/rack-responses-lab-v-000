@@ -1,6 +1,10 @@
 require "pry"
 class Application
-  binding.pry
+  def what_time
+    
+    binding.pry
+    t = Time.now
+end
 
   def call(env)
     resp = Rack::Response.new
